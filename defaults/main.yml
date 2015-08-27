@@ -1,0 +1,12 @@
+---
+# defaults file for os_branding
+
+horizon_site_name: OpenStack Cloud
+horizon_settings_path: /etc/horizon/
+horizon_static_folder: /usr/local/lib/python2.7/dist-packages/static/
+
+#This will be used if defined (overriden by your variables):
+#horizon_custom_uploads:
+#  logo:
+#    src: /etc/openstack_deploy/files/logo.png
+#    dest: "{{horizon_static_folder}}dashboard/img/logo.png"
