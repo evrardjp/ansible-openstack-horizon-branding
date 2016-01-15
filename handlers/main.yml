@@ -1,6 +1,0 @@
----
-# handlers file for os_branding
-- name: restart horizon
-  service:
-    name: apache2
-    state: restarted
